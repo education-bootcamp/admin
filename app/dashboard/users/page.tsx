@@ -20,7 +20,7 @@ export default function UserPage() {
     }
 
     return (
-        <div className="w-screen h-screen bg-gray-100 flex flex-col items-center justify-start">
+        <div className=" h-screen bg-gray-100 flex flex-col items-center justify-start">
 
             <h2 className="text-2xl font-bold mb-6">Users</h2>
 
