@@ -11,7 +11,7 @@ export default function DashboardPage() {
     }
 
     return (
-        <div className="w-full max-w-sm bg-white rounded-xl shadow p-6 space-y-4">
+        <div className="w-full min-h-screen max-w-sm bg-white rounded-xl shadow p-6 space-y-4">
 
             <div className="flex justify-between items-center">
                 <h1 className="text-2xl font-bold">Dashboard</h1>

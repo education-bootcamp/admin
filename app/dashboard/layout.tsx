@@ -13,7 +13,7 @@ export default function DashboardLayout({children}: { children: React.ReactNode 
 
     return(
         <div className="flex flex-col min-h-screen">
-            <header className="w-full bg-blue-600 text-white shadow">
+            <header className="w-full flex justify-between px-8 py-5 bg-blue-600 text-white shadow">
                 <h1 className="text-xl font-bold">Dashboard</h1>
                 <nav className="space-x-6">
                     <Link href="/dashboard" className='hover:underline'>Home</Link>
